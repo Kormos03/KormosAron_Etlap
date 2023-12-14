@@ -8,10 +8,10 @@
         Title="NewFoodForm" Height="450" Width="800">
     <DockPanel>
         <StackPanel DockPanel.Dock="Left" Orientation="Vertical">
-            <Label Content="Név:" Margin="0,0,10,0"/>
+            <Label Content="Név:" Margin="0,5,10,0"/>
             <Label Content="Ár:" Margin="0,0,10,0"/>
             <Label Content="Leírás:" Margin="0,0,10,0"/>
-            <Label Content="Kategória:" Margin="0,0,10,0"/>
+            <Label Content="Kategória:" Margin="0,5,10,0"/>
         </StackPanel>
         <StackPanel DockPanel.Dock="Top" Orientation="Vertical">
 
