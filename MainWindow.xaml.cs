@@ -52,6 +52,7 @@ namespace KormosAron_Etlap
 
         private void aremelesButton_Click(object sender, RoutedEventArgs e)
         {
+            service.GetAll();
             Etel etel = new Etel();
             if (szazalekosCheckBox.IsChecked.Value)
             {
@@ -78,6 +79,7 @@ namespace KormosAron_Etlap
                 }
                 etelek.ForEach(etel =>
                 {
+
                     service.Modify(etel, int.Parse(aremelesTextBox.Text), szazalekosCheckBox.IsChecked.Value);
                 });
             }
